@@ -1,4 +1,4 @@
-# 📍 Live Location Tracker
+# Live Location Tracker
 
 ![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
 ![WebSockets](https://img.shields.io/badge/WebSockets-Real--Time-blue)
@@ -9,21 +9,13 @@ A real-time location tracking web application that allows users to share and mon
 
 ---
 
-## 🌐 Live Demo
-
-- 🔗 **Live App:**  
-- 📦 **GitHub Repo:**  
-- 🎥 **Demo Video:**  
-
----
-
 ## ✨ Preview
 
 https://github.com/user-attachments/assets/a6d1af87-eb35-4ad6-8e3f-219861ef6cbb
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 The **Live Location Tracker** is designed to demonstrate how real-time systems work using location data.
 
@@ -37,20 +29,20 @@ This project focuses on **low-latency communication**, **efficient updates**, an
 
 ---
 
-## ⚡ Features
+##  Features
 
-- 📍 Real-time location tracking  
-- 🗺️ Interactive map interface  
-- 🔄 Live updates using WebSockets  
-- 👥 Multi-user tracking  
-- 📡 Instant position synchronization  
-- 🔌 Automatic connect/disconnect handling  
-- 🔁 Refresh-safe tracking session  
-- ⚡ Lightweight and fast updates  
+-  Real-time location tracking  
+-  Interactive map interface  
+-  Live updates using WebSockets  
+-  Multi-user tracking  
+-  Instant position synchronization  
+-  Automatic connect/disconnect handling  
+-  Refresh-safe tracking session  
+-  Lightweight and fast updates  
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - HTML  
@@ -69,7 +61,7 @@ This project focuses on **low-latency communication**, **efficient updates**, an
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 
@@ -88,7 +80,7 @@ Other Connected Clients
 
 ---
 
-## 🔄 How It Works
+##  How It Works
 
 1. User opens the app and grants location permission  
 2. Browser fetches GPS coordinates  
@@ -98,7 +90,7 @@ Other Connected Clients
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 ```
 
@@ -116,7 +108,7 @@ project-root/
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ### 1. Clone the repository
 ```bash
@@ -144,14 +136,14 @@ http://localhost:3000
 
 ---
 
-## 🔐 Permissions
+##  Permissions
 
 * Requires **location access** from the browser
 * Works best on **HTTPS or localhost**
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * User authentication (login system)
 * Private rooms / group tracking
@@ -161,17 +153,17 @@ http://localhost:3000
 
 ---
 
-## 🧪 Demo Checklist
+##  Demo Checklist
 
-* ✅ Location permission prompt works
-* ✅ User location appears on map
-* ✅ Multiple users visible simultaneously
-* ✅ Real-time movement updates
-* ✅ Disconnect removes marker
+*  Location permission prompt works
+*  User location appears on map
+*  Multiple users visible simultaneously
+*  Real-time movement updates
+*  Disconnect removes marker
 
 ---
 
-## 📚 What This Project Teaches
+##  What This Project Teaches
 
 * Real-time communication using WebSockets
 * Handling live GPS data in web apps
@@ -181,7 +173,7 @@ http://localhost:3000
 
 ---
 
-## 💡 Key Insight
+##  Key Insight
 
 Real-time location tracking is not just about maps — it's about:
 
@@ -191,7 +183,7 @@ Real-time location tracking is not just about maps — it's about:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome!
 
@@ -202,6 +194,6 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
+##  License
 
 This project is for educational purposes.
