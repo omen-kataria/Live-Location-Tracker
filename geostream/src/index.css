@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-clay-bg: #E0E7FF;
+  --radius-clay: 2rem;
+  
+  --shadow-clay-outer: 12px 12px 24px rgba(163, 177, 198, 0.6), -12px -12px 24px rgba(255, 255, 255, 0.8);
+  --shadow-clay-inner: inset 8px 8px 16px rgba(255, 255, 255, 0.5), inset -8px -8px 16px rgba(0, 0, 0, 0.05);
+  --shadow-clay-btn: 6px 6px 12px rgba(163, 177, 198, 0.6), -6px -6px 12px rgba(255, 255, 255, 0.8);
+  --shadow-clay-btn-inset: inset 4px 4px 8px rgba(0, 0, 0, 0.1), inset -4px -4px 8px rgba(255, 255, 255, 0.9);
+}
+
+@layer utilities {
+  .neo-brutal {
+    @apply border-4 border-[#141414] shadow-[8px_8px_0px_0px_rgba(20,20,20,1)] bg-white transition-all active:translate-x-1 active:translate-y-1 active:shadow-none;
+  }
+
+  .glass-card {
+    @apply bg-white/40 backdrop-blur-xl border border-white/40 shadow-xl;
+  }
+
+  .clay-card {
+    @apply bg-white rounded-[2rem] shadow-[var(--shadow-clay-outer)] relative overflow-hidden;
+    &::after {
+      content: '';
+      @apply absolute inset-0 rounded-[2rem] pointer-events-none shadow-[var(--shadow-clay-inner)];
+    }
+  }
+
+  .clay-button {
+    @apply rounded-full px-6 py-3 font-bold transition-all duration-200 active:scale-95 shadow-[var(--shadow-clay-btn)] relative overflow-hidden flex items-center justify-center;
+    &::after {
+      content: '';
+      @apply absolute inset-0 rounded-full pointer-events-none shadow-[inset_4px_4px_8px_rgba(255,255,255,0.4),inset_-4px_-4px_8px_rgba(0,0,0,0.05)];
+    }
+  }
+
+  .clay-input {
+    @apply w-full bg-[#F0F4FF] rounded-2xl px-6 py-4 outline-none border-none shadow-[inset_6px_6px_12px_rgba(0,0,0,0.05),inset_-6px_-6px_12px_rgba(255,255,255,0.8)] focus:ring-2 ring-indigo-200 transition-all;
+  }
+}
