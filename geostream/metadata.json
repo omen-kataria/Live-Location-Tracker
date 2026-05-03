@@ -1,6 +1,0 @@
-{
-  "name": "GeoStream",
-  "description": "Real-time live location tracking system with Kafka-inspired event streaming architecture.",
-  "requestFramePermissions": ["geolocation"],
-  "majorCapabilities": []
-}
