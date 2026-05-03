@@ -9,7 +9,7 @@ A real-time location tracking web application that allows users to share and mon
 
 ---
 
-## ✨ Preview
+##  Preview
 
 https://github.com/user-attachments/assets/a6d1af87-eb35-4ad6-8e3f-219861ef6cbb
 
